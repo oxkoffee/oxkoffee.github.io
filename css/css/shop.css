@@ -1,0 +1,435 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+/* 21761082_이경환 */
+
+body
+{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 400;
+
+    position: relative;
+
+    margin: 0;
+    padding: 0;
+}
+
+/*---------------------------nav------------------------*/
+#header
+{
+    position: fixed;
+    z-index: 3;
+    top: 0;
+
+    width: 100%;
+    height: 60px;
+    margin: 0;
+
+    background: #fff;
+}
+
+#logo
+{
+    position: fixed;
+
+    width: 187px;
+    height: 70px;
+    margin: 0;
+}
+
+#logo a img
+{
+    width: 68px;
+    height: 34px;
+    margin-top: 13px;
+    margin-bottom: 13px;
+    margin-left: 60px;
+}
+
+#category_list
+{
+    position: absolute;
+
+    width: 484px;
+    margin-top: 0;
+    margin-left: 188px;
+}
+
+#category_list ul
+{
+    font-size: 13px;
+    font-weight: 400;
+
+    margin-top: 13px;
+    margin-bottom: 13px;
+    padding-left: 0;
+
+    list-style: none;
+
+    text-align: center;
+}
+
+#category_list ul li a
+{
+    text-decoration: none;
+}
+
+#category_list ul li a p
+{
+    float: left;
+
+    color: #181818;
+}
+
+#category_list ul li a p:hover
+{
+    font-weight: 500;
+}
+
+.d_1 a p
+{
+    width: 100px;
+    height: 20px;
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+
+.d_2 a p
+{
+    width: 100px;
+    height: 20px;
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+
+.d_3 a p
+{
+    width: 100px;
+    height: 20px;
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+
+.d_4 a p
+{
+    width: 100px;
+    height: 20px;
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+
+#insta a img
+{
+    float: right;
+
+    margin-top: 13px;
+    margin-right: 60px;
+    margin-bottom: 13px;
+}
+
+/*---------------------------banner------------------------*/
+
+#banner
+{
+    width: 100%;
+    height: 170px;
+    margin-top: 60px;
+    margin-bottom: 0;
+
+    background: url('../img/shop/banner.png') no-repeat 50% 50% / cover;
+}
+
+
+/*---------------------------nav------------------------*/
+
+
+#depth
+{
+    width: 100%;
+    height: 100px;
+    margin: 0;
+}
+
+.depth_wrap
+{
+    width: 310px;
+    height: 20px;
+    margin: 0 auto;
+    padding: 40px 0 40px 0;
+
+    text-align: center;
+}
+
+.depth_wrap p
+{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16px;
+
+    display: inline-block;
+
+    width: 60px;
+    height: 20px;
+    margin-top: 0;
+    margin-bottom: 0;
+
+    opacity: .5;
+    color: #181818;
+}
+
+.depth_wrap p:hover
+{
+    opacity: 1;
+    border-bottom: 3px solid #181818;
+}
+
+.margin_plus
+{
+    margin-right: 65px;
+}
+
+#checked
+{
+    opacity: 1;
+}
+
+
+/*---------------------------contents------------------------*/
+
+
+#content
+{
+    width: 100%;
+    height: auto;
+    margin: 0 auto 100px auto;
+
+    border-top: 1px solid #bdbdbd;
+}
+
+
+#content_wrap
+{
+    display: -webkit-flex;
+    display:     -ms-flex;
+    display:         flex;
+    align-content: flex-start;
+    -webkit-flex-flow: wrap;
+        -ms-flex-flow: wrap;
+            flex-flow: wrap;
+
+    width: 960px;
+    height: auto;
+    margin: 0 auto;
+}
+
+
+
+.item
+{
+    width: 220px;
+    height: 266px;
+    margin: 0 10px 0 10px;
+    padding: 50px 0 0 0;
+}
+
+.item div
+{
+    width: 220px;
+    height: 220px;
+}
+
+.item a
+{
+    text-decoration: none;
+}
+
+.item h2
+{
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 12px;
+
+    width: 220px;
+    height: 14px;
+    margin: 10px 0;
+
+    color: #181818;
+}
+
+.item p
+{
+    font-size: 10px;
+    font-weight: 300;
+    line-height: 10px;
+
+    width: 220px;
+    height: 12px;
+    margin: 0;
+    padding: 0;
+
+    color: #666;
+}
+
+.aitem1 div
+{
+    background: url('./../img/shop/a1.png')no-repeat 50% 50% / cover;
+}
+
+.aitem2 div
+{
+    background: url('./../img/shop/a2.png') no-repeat 50% 50% / cover;
+}
+
+.aitem3 div
+{
+    background: url('./../img/shop/a3.png') no-repeat 50% 50% /cover;
+}
+
+.aitem4 div
+{
+    background: url('./../img/shop/a4.png') no-repeat 50% 50% / cover;
+}
+
+.aitem5 div
+{
+    background: url('./../img/shop/a5.png') no-repeat 50% 50% / cover;
+}
+
+.aitem6 div
+{
+    background: url('./../img/shop/a6.png') no-repeat 50% 50% / cover;
+}
+
+.aitem7 div
+{
+    background: url('./../img/shop/a7.png') no-repeat 50% 50% / cover;
+}
+
+.aitem8 div
+{
+    background: url('./../img/shop/a8.png') no-repeat 50% 50% / cover;
+}
+
+.aitem9 div
+{
+    background: url('./../img/shop/a9.png') no-repeat 50% 50% / cover;
+}
+
+.aitem10 div
+{
+    background: url('./../img/shop/a10.png') no-repeat 50% 50% / cover;
+}
+
+.bitem1 div
+{
+    background: url('./../img/shop/b1.png') no-repeat 50% 50% / cover;
+}
+
+.bitem2 div
+{
+    background: url('./../img/shop/b2.png') no-repeat 50% 50% / cover;
+}
+
+.bitem3 div
+{
+    background: url('./../img/shop/b3.png') no-repeat 50% 50% / cover;
+}
+
+.citem1 div
+{
+    background: url('./../img/shop/c1.png') no-repeat 50% 50% / cover;
+}
+
+.citem2 div
+{
+    background: url('./../img/shop/c2.png') no-repeat 50% 50% / cover;
+}
+
+.citem3 div
+{
+    background: url('./../img/shop/c3.jpg') no-repeat 50% 50% / cover;
+}
+.content_title
+{
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 16px;
+
+    display: block;
+
+    width: 140px;
+    height: 20px;
+    margin: 40px auto 0 auto;
+
+    text-align: center;
+
+    color: #181818;
+}
+
+#blank
+{
+    width: 100%;
+    height: 500px;
+}
+/*---------------------------footer------------------------*/
+
+#footer
+{
+    width: 100%;
+    height: 150px;
+
+    text-align: center;
+
+    background: #181818;
+}
+
+#footer div
+{
+    display: inline-block;
+
+    width: 100%;
+    height: 22px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+#footer div a img
+{
+    display: inline-block;
+
+    width: 44px;
+    height: 22px;
+}
+
+#footer h1
+{
+    font-size: 18px;
+    font-weight: 400;
+
+    display: inline;
+
+    width: 300px;
+    height: 16px;
+
+    color: #bababa;
+}
+
+#footer h1 p
+{
+    font-size: 10px;
+    font-weight: 200;
+
+    display: inline;
+
+    color: #bababa;
+}
+
+#footer p
+{
+    font-size: 10px;
+    font-weight: 200;
+    line-height: 12px;
+
+    margin-top: 2px;
+    margin-bottom: 40px;
+
+    color: #bababa;
+}

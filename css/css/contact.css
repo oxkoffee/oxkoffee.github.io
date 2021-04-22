@@ -1,0 +1,301 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+/* 21761082_이경환 */
+
+body
+{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 400;
+
+    position: relative;
+
+    margin: 0;
+    padding: 0;
+}
+
+/*---------------------------nav------------------------*/
+#header
+{
+    position: fixed;
+    z-index: 3;
+    top: 0;
+
+    width: 100%;
+    height: 60px;
+    margin: 0;
+
+    background: #fff;
+}
+
+#logo
+{
+    position: fixed;
+
+    width: 187px;
+    height: 70px;
+    margin: 0;
+}
+
+#logo a img
+{
+    width: 68px;
+    height: 34px;
+    margin-top: 13px;
+    margin-bottom: 13px;
+    margin-left: 60px;
+}
+
+#category_list
+{
+    position: absolute;
+
+    width: 484px;
+    margin-top: 0;
+    margin-left: 188px;
+}
+
+#category_list ul
+{
+    font-size: 13px;
+    font-weight: 400;
+
+    margin-top: 13px;
+    margin-bottom: 13px;
+    padding-left: 0;
+
+    list-style: none;
+
+    text-align: center;
+}
+
+#category_list ul li a
+{
+    text-decoration: none;
+}
+
+#category_list ul li a p
+{
+    float: left;
+
+    color: #181818;
+}
+
+#category_list ul li a p:hover
+{
+    font-weight: 500;
+}
+
+.d_1 a p
+{
+    width: 100px;
+    height: 20px;
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+
+.d_2 a p
+{
+    width: 100px;
+    height: 20px;
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+
+.d_3 a p
+{
+    width: 100px;
+    height: 20px;
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+
+.d_4 a p
+{
+    width: 100px;
+    height: 20px;
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+
+#insta a img
+{
+    float: right;
+
+    margin-top: 13px;
+    margin-right: 60px;
+    margin-bottom: 13px;
+}
+/*---------------------------contents---------------------------*/
+
+section {
+  width: 100%;
+  height: auto;
+  margin-top: 60px;
+
+}
+
+#contents_wrap {
+  width: 940px;
+  height: auto;
+  margin: 0 auto;
+}
+
+#title_wrap{
+ width: 940px;
+ height: 24px;
+ padding: 40px 0;
+ m
+
+}
+
+#title_wrap h1 {
+  display: block;
+  width: 140px;
+  height: 24px;
+  line-height: 24px;
+  font-size: 20px;
+  font-weight: 300;
+  text-align: center;
+  margin: 0 auto;
+
+}
+
+.lines {
+  width: 940px;
+  height: 1px;
+  background-color: #000;
+}
+
+.contents {
+  width: 780px;
+  height: 580px;
+  padding: 40px 0;
+  margin: 0 auto;
+}
+
+.contents_left {
+  background: url('./../img/contact/contact_1.png') no-repeat 50% 50% / cover;
+  width: 380px;
+  display: inline-block;
+  height: 580px;
+}
+
+.contents_right {
+  width: 380px;
+  height: 580px;
+  display: inline-block;
+  float: right;
+}
+
+.contents_right h3 {
+  width: 380px;
+  height: 38px;
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 38px;
+  display: block;
+  margin: 0;
+}
+
+.contents_right p {
+  width: 380px;
+  height: 88px;
+  display: block;
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 100;
+  margin: 28px 0 ;
+}
+
+.contents_right h4 {
+  display: block;
+  display: inline-block;
+  width: 140px;
+  height: 140px;
+  font-size: 18px;
+  font-weight: 300;
+  margin: 40px 0 0 0;
+}
+
+.qr_kakao {
+width: 140px;
+height: 140px;
+margin-top: 40px;
+float: right;
+background: url('./../img/contact/qr2.png') no-repeat 50% 50% / cover;
+}
+
+.qr_insta {
+  width: 140px;
+  height: 140px;
+  margin-top: 40px;
+  float: right;
+  background: url('./../img/contact/qr1.png') no-repeat 50% 505% / cover;
+}
+
+
+
+/*---------------------------footer---------------------------*/
+#footer
+{
+    width: 100%;
+    height: 150px;
+    position: fixed;
+    bottom: 0;
+
+    text-align: center;
+
+    background: #181818;
+}
+
+#footer div
+{
+    display: inline-block;
+
+    width: 100%;
+    height: 22px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+#footer div a img
+{
+    display: inline-block;
+
+    width: 44px;
+    height: 22px;
+}
+
+#footer h1
+{
+    font-size: 18px;
+    font-weight: 400;
+
+    display: inline;
+
+    width: 300px;
+    height: 16px;
+
+    color: #bababa;
+}
+
+#footer h1 p
+{
+    font-size: 10px;
+    font-weight: 200;
+
+    display: inline;
+
+    color: #bababa;
+}
+
+#footer p
+{
+    font-size: 10px;
+    font-weight: 200;
+    line-height: 12px;
+
+    margin-top: 2px;
+    margin-bottom: 40px;
+
+    color: #bababa;
+}
